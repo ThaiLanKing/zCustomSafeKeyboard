@@ -1,0 +1,23 @@
+//
+//  zCusomSafeKeyboard.pch
+//  zCustomSafeKeyboard
+//
+//  Created by ZhangYaoHua on 2019/11/8.
+//  Copyright © 2019 ZYH. All rights reserved.
+//
+
+#ifndef zCusomSafeKeyboard_pch
+#define zCusomSafeKeyboard_pch
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry.h>
+
+#import "UtilsMacros.h"
+
+#import "UIButton+ActionBlock.h"
+
+#endif /* zCusomSafeKeyboard_pch */
