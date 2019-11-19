@@ -8,11 +8,11 @@
 
 #### 使用方式
 
-引入头文件`UITextField+zSafeKeyboard.h`
-有两个方法：
+引入头文件`UITextField+zSafeKeyboard.h`，内部有两个方法：
 
 ```objc
-//字符键盘
+
+//字母符号键盘
 - (void)setJBCharsAndSymbolsKeyboard:(BOOL)safe;
 
 //纯数字键盘
@@ -22,7 +22,8 @@
 
 对于需要设置安全键盘的textField调用方法即可：
 
-```
+```objc
+
 [self.passwordTxtField setJBCharsAndSymbolsKeyboard:YES];
 
 ```
