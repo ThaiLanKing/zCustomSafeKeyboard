@@ -48,9 +48,6 @@ fprintf(stderr, "-------\n");                                               \
 
 #pragma mark - 强弱引用
 //RAC的@weakify有个优势：可以同时操作多个对象，如@weakify(obj1, obj2),而如下定义不行
-#define kWeakify(type)   __weak typeof(type) weak##type = type;
-#define kStrongify(type) __strong typeof(type) type = weak##type;
-
 #ifndef    weakify
 #if __has_feature(objc_arc)
 
