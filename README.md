@@ -1,6 +1,8 @@
 # zCustomSafeKeyboard
 安全密码输入键盘，支持数字、字母随机排序
 
+参考了项目[LRSafetyKeyboard](https://github.com/Luriss/SafetyKeyboard)，调整了键盘键位的布局逻辑及键盘弹出方式，不会监听键盘的显示隐藏通知
+
 #### 效果
 
 ![safeKeyboard.gif](https://github.com/ThaiLanKing/zCustomSafeKeyboard/blob/master/safeKeyboard.gif)
