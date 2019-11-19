@@ -7,19 +7,24 @@
 //
 
 #import "UITextField+zSafeKeyboard.h"
-#import "JBCustomSafeKeyboard.h"
+#import "JBCharsAndSymbolsKeyboard.h"
+#import "JBPureNumberKeyboard.h"
 
 @implementation UITextField (zSafeKeyboard)
 
 - (void)setJBCharsAndSymbolsKeyboard:(BOOL)safe
 {
-    JBCustomSafeKeyboard *keyboard = [[JBCustomSafeKeyboard alloc] initWithKeyBoardType:JBSafeKeyboardTypeCharsAndSymbols andContainerTxtField:self];
+    JBCharsAndSymbolsKeyboard *keyboard = [[JBCharsAndSymbolsKeyboard alloc] init];
+    keyboard.containerTxtField = self;
+    keyboard.safeKeyboard = safe;
     self.inputView = keyboard;
 }
 
 - (void)setJBPureNumbersKeyboard:(BOOL)safe
 {
-    JBCustomSafeKeyboard *keyboard = [[JBCustomSafeKeyboard alloc] initWithKeyBoardType:JBSafeKeyboardTypePureNumber andContainerTxtField:self];
+    JBPureNumberKeyboard *keyboard = [[JBPureNumberKeyboard alloc] init];
+    keyboard.containerTxtField = self;
+    keyboard.safeKeyboard = safe;
     self.inputView = keyboard;
 }
 

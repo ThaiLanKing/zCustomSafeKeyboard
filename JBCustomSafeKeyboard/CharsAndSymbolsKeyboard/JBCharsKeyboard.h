@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) NSArray<JBKeyboardButton *> *allCharBtns;
 
+@property (nonatomic, assign) BOOL safeKeyboard;
+
 - (void)reloadRandomKeys;
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67CDCD864B1BDC97F0E7723D /* libPods-zCustomSafeKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84162273F5E56303060BA796 /* libPods-zCustomSafeKeyboard.a */; };
+		DA4AA2FD2383C3B400C66A6A /* JBPureNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4AA2FB2383C3B300C66A6A /* JBPureNumberKeyboard.m */; };
 		DAD9809D237516FC00F4F0F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9809C237516FC00F4F0F6 /* AppDelegate.m */; };
 		DAD980A0237516FC00F4F0F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9809F237516FC00F4F0F6 /* SceneDelegate.m */; };
 		DAD980A3237516FC00F4F0F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980A2237516FC00F4F0F6 /* ViewController.m */; };
@@ -16,8 +17,6 @@
 		DAD980AB237516FE00F4F0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD980A9237516FE00F4F0F6 /* LaunchScreen.storyboard */; };
 		DAD980AE237516FE00F4F0F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980AD237516FE00F4F0F6 /* main.m */; };
 		DAD980CA237518C800F4F0F6 /* JBKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980B6237518C800F4F0F6 /* JBKeyboardButton.m */; };
-		DAD980CB237518C800F4F0F6 /* JBPureNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980B7237518C800F4F0F6 /* JBPureNumberKeyboard.m */; };
-		DAD980CC237518C800F4F0F6 /* JBCustomSafeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980B8237518C800F4F0F6 /* JBCustomSafeKeyboard.m */; };
 		DAD980CD237518C800F4F0F6 /* JBKeyboardLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980BB237518C800F4F0F6 /* JBKeyboardLineView.m */; };
 		DAD980CE237518C800F4F0F6 /* JBSymbolsKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980BC237518C800F4F0F6 /* JBSymbolsKeyboard.m */; };
 		DAD980CF237518C800F4F0F6 /* JBCharsKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980C0237518C800F4F0F6 /* JBCharsKeyboard.m */; };
@@ -33,6 +32,8 @@
 /* Begin PBXFileReference section */
 		7D8CAB320083CAF61018CE90 /* Pods-zCustomSafeKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zCustomSafeKeyboard.debug.xcconfig"; path = "Target Support Files/Pods-zCustomSafeKeyboard/Pods-zCustomSafeKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
 		84162273F5E56303060BA796 /* libPods-zCustomSafeKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zCustomSafeKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4AA2FB2383C3B300C66A6A /* JBPureNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBPureNumberKeyboard.m; sourceTree = "<group>"; };
+		DA4AA2FC2383C3B300C66A6A /* JBPureNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBPureNumberKeyboard.h; sourceTree = "<group>"; };
 		DAD98098237516FC00F4F0F6 /* zCustomSafeKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zCustomSafeKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD9809B237516FC00F4F0F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAD9809C237516FC00F4F0F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,8 +48,6 @@
 		DAD980AD237516FE00F4F0F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAD980B5237518C800F4F0F6 /* JBBaseKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBaseKeyboard.h; sourceTree = "<group>"; };
 		DAD980B6237518C800F4F0F6 /* JBKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBKeyboardButton.m; sourceTree = "<group>"; };
-		DAD980B7237518C800F4F0F6 /* JBPureNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBPureNumberKeyboard.m; sourceTree = "<group>"; };
-		DAD980B8237518C800F4F0F6 /* JBCustomSafeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCustomSafeKeyboard.m; sourceTree = "<group>"; };
 		DAD980B9237518C800F4F0F6 /* JBKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBKeyboardButton.h; sourceTree = "<group>"; };
 		DAD980BB237518C800F4F0F6 /* JBKeyboardLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBKeyboardLineView.m; sourceTree = "<group>"; };
 		DAD980BC237518C800F4F0F6 /* JBSymbolsKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSymbolsKeyboard.m; sourceTree = "<group>"; };
@@ -59,11 +58,9 @@
 		DAD980C1237518C800F4F0F6 /* JBSymbolsKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSymbolsKeyboard.h; sourceTree = "<group>"; };
 		DAD980C2237518C800F4F0F6 /* JBCharsAndSymbolsKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCharsAndSymbolsKeyboard.m; sourceTree = "<group>"; };
 		DAD980C3237518C800F4F0F6 /* JBBaseKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBaseKeyboard.m; sourceTree = "<group>"; };
-		DAD980C4237518C800F4F0F6 /* JBPureNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBPureNumberKeyboard.h; sourceTree = "<group>"; };
 		DAD980C6237518C800F4F0F6 /* keyboard_lowerCase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_lowerCase.png; sourceTree = "<group>"; };
 		DAD980C7237518C800F4F0F6 /* keyboard_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_delete.png; sourceTree = "<group>"; };
 		DAD980C8237518C800F4F0F6 /* keyboard_upperCase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_upperCase.png; sourceTree = "<group>"; };
-		DAD980C9237518C800F4F0F6 /* JBCustomSafeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCustomSafeKeyboard.h; sourceTree = "<group>"; };
 		DAD980D523751C4100F4F0F6 /* UITextField+zSafeKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+zSafeKeyboard.h"; sourceTree = "<group>"; };
 		DAD980D623751C4100F4F0F6 /* UITextField+zSafeKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+zSafeKeyboard.m"; sourceTree = "<group>"; };
 		DAD980DA23751DCB00F4F0F6 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
@@ -102,6 +99,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA4AA2FA2383C37300C66A6A /* PureNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA4AA2FC2383C3B300C66A6A /* JBPureNumberKeyboard.h */,
+				DA4AA2FB2383C3B300C66A6A /* JBPureNumberKeyboard.m */,
+			);
+			path = PureNumberKeyboard;
+			sourceTree = "<group>";
+		};
 		DAD9808F237516FC00F4F0F6 = {
 			isa = PBXGroup;
 			children = (
@@ -132,12 +138,12 @@
 				DAD9809F237516FC00F4F0F6 /* SceneDelegate.m */,
 				DAD980A1237516FC00F4F0F6 /* ViewController.h */,
 				DAD980A2237516FC00F4F0F6 /* ViewController.m */,
+				DAD980AD237516FE00F4F0F6 /* main.m */,
+				DAD980DB23751FA800F4F0F6 /* zCusomSafeKeyboard.pch */,
 				DAD980A4237516FC00F4F0F6 /* Main.storyboard */,
 				DAD980A7237516FE00F4F0F6 /* Assets.xcassets */,
 				DAD980A9237516FE00F4F0F6 /* LaunchScreen.storyboard */,
 				DAD980AC237516FE00F4F0F6 /* Info.plist */,
-				DAD980AD237516FE00F4F0F6 /* main.m */,
-				DAD980DB23751FA800F4F0F6 /* zCusomSafeKeyboard.pch */,
 			);
 			path = zCustomSafeKeyboard;
 			sourceTree = "<group>";
@@ -145,15 +151,12 @@
 		DAD980B4237518C800F4F0F6 /* JBCustomSafeKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				DA4AA2FA2383C37300C66A6A /* PureNumberKeyboard */,
 				DAD980BA237518C800F4F0F6 /* CharsAndSymbolsKeyboard */,
 				DAD980B5237518C800F4F0F6 /* JBBaseKeyboard.h */,
 				DAD980C3237518C800F4F0F6 /* JBBaseKeyboard.m */,
-				DAD980C9237518C800F4F0F6 /* JBCustomSafeKeyboard.h */,
-				DAD980B8237518C800F4F0F6 /* JBCustomSafeKeyboard.m */,
 				DAD980B9237518C800F4F0F6 /* JBKeyboardButton.h */,
 				DAD980B6237518C800F4F0F6 /* JBKeyboardButton.m */,
-				DAD980C4237518C800F4F0F6 /* JBPureNumberKeyboard.h */,
-				DAD980B7237518C800F4F0F6 /* JBPureNumberKeyboard.m */,
 				DAD980C5237518C800F4F0F6 /* Resource */,
 				DAD980D523751C4100F4F0F6 /* UITextField+zSafeKeyboard.h */,
 				DAD980D623751C4100F4F0F6 /* UITextField+zSafeKeyboard.m */,
@@ -313,12 +316,11 @@
 				DAD980A3237516FC00F4F0F6 /* ViewController.m in Sources */,
 				DAD980D723751C4100F4F0F6 /* UITextField+zSafeKeyboard.m in Sources */,
 				DAD9809D237516FC00F4F0F6 /* AppDelegate.m in Sources */,
+				DA4AA2FD2383C3B400C66A6A /* JBPureNumberKeyboard.m in Sources */,
 				DAD980AE237516FE00F4F0F6 /* main.m in Sources */,
 				DAD980CE237518C800F4F0F6 /* JBSymbolsKeyboard.m in Sources */,
 				DAD980CF237518C800F4F0F6 /* JBCharsKeyboard.m in Sources */,
-				DAD980CC237518C800F4F0F6 /* JBCustomSafeKeyboard.m in Sources */,
 				DAD980E02375554B00F4F0F6 /* UIButton+ActionBlock.m in Sources */,
-				DAD980CB237518C800F4F0F6 /* JBPureNumberKeyboard.m in Sources */,
 				DAD980D1237518C800F4F0F6 /* JBBaseKeyboard.m in Sources */,
 				DAD980CA237518C800F4F0F6 /* JBKeyboardButton.m in Sources */,
 				DAD980D0237518C800F4F0F6 /* JBCharsAndSymbolsKeyboard.m in Sources */,

@@ -12,6 +12,8 @@
 @interface JBPureNumberKeyboard ()
 
 @property (nonatomic, strong) NSMutableArray *allNumberBtns;
+//切换到字母键盘的按钮
+@property (nonatomic, strong) JBKeyboardButton *abcBtn;
 
 @end
 
@@ -105,7 +107,10 @@
 
 - (void)reloadRandomKeys
 {    
-    NSArray *allNumbers = [JBBaseKeyboard randomSortedArrFromSrcArr:JBKeyboard_Numbers];
+    NSArray *allNumbers = JBKeyboard_Numbers;
+    if (self.safeKeyboard) {
+        allNumbers = [JBBaseKeyboard randomSortedArrFromSrcArr:allNumbers];
+    }
     [self.allNumberBtns enumerateObjectsUsingBlock:^(JBKeyboardButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj setTitle:allNumbers[idx] forState:UIControlStateNormal];
     }];

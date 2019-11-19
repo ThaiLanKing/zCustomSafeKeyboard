@@ -150,7 +150,10 @@
     if (_isMoreSymbols) {
         return;
     }
-    NSArray *numbers = [JBBaseKeyboard randomSortedArrFromSrcArr:JBKeyboard_Numbers];
+    NSArray *numbers = JBKeyboard_Numbers;
+    if (self.safeKeyboard) {
+        numbers = [JBBaseKeyboard randomSortedArrFromSrcArr:numbers];
+    }
     [self.firstLineView.keyboardBtns enumerateObjectsUsingBlock:^(JBKeyboardButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj setTitle:numbers[idx] forState:UIControlStateNormal];
     }];

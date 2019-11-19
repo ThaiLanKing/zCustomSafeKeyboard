@@ -153,7 +153,10 @@
 
 - (void)reloadRandomKeys
 {
-    NSArray *allChars = [JBBaseKeyboard randomSortedArrFromSrcArr:JBKeyboard_Chars];
+    NSArray *allChars = JBKeyboard_Chars;
+    if (self.safeKeyboard) {
+        allChars = [JBBaseKeyboard randomSortedArrFromSrcArr:allChars];
+    }
     [self.allCharBtns enumerateObjectsUsingBlock:^(JBKeyboardButton * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj setTitle:allChars[idx] forState:UIControlStateNormal];
     }];

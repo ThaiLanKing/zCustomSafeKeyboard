@@ -46,6 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) JBKeyboardButton *deleteBtn;
 @property (nonatomic, strong, readonly) JBKeyboardButton *doneBtn;
 
+@property (nonatomic, assign) BOOL safeKeyboard;
+
 + (CGFloat)smallButtonWidth;
 
 + (CGFloat)buttonLineHeight;

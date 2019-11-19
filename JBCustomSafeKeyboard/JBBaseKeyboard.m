@@ -8,6 +8,15 @@
 
 #import "JBBaseKeyboard.h"
 
+#define zIsiPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [UIApplication sharedApplication].windows.firstObject.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+#define zBottomAreaHeightForiPhoneX 34
+
 @interface JBBaseKeyboard ()
 
 @property (nonatomic, strong) JBKeyboardButton *deleteBtn;
@@ -16,6 +25,18 @@
 @end
 
 @implementation JBBaseKeyboard
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    CGFloat viewHeight = JBKeyboard_Keyboard_Height;
+    if (zIsiPhoneX) {
+        viewHeight += zBottomAreaHeightForiPhoneX;
+    }
+    if (self = [super initWithFrame:CGRectMake(0, 0, kScreenWidth, viewHeight)]) {
+    
+    }
+    return self;
+}
 
 - (instancetype)init
 {

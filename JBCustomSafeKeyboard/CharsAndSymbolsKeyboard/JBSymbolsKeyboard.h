@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) NSArray *allSymbolBtns;
 
+@property (nonatomic, assign) BOOL safeKeyboard;
+
 - (void)reloadRandomKeys;
 
 @end

@@ -164,4 +164,12 @@
     [self.symbolsKeyboard reloadRandomKeys];
 }
 
+- (void)setSafeKeyboard:(BOOL)safeKeyboard
+{
+    [super setSafeKeyboard:safeKeyboard];
+    
+    self.charsKeyboard.safeKeyboard = safeKeyboard;
+    self.symbolsKeyboard.safeKeyboard = safeKeyboard;
+}
+
 @end
