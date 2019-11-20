@@ -10,9 +10,7 @@
 		67CDCD864B1BDC97F0E7723D /* libPods-zCustomSafeKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84162273F5E56303060BA796 /* libPods-zCustomSafeKeyboard.a */; };
 		DA4AA2FD2383C3B400C66A6A /* JBPureNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4AA2FB2383C3B300C66A6A /* JBPureNumberKeyboard.m */; };
 		DAD9809D237516FC00F4F0F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9809C237516FC00F4F0F6 /* AppDelegate.m */; };
-		DAD980A0237516FC00F4F0F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9809F237516FC00F4F0F6 /* SceneDelegate.m */; };
 		DAD980A3237516FC00F4F0F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980A2237516FC00F4F0F6 /* ViewController.m */; };
-		DAD980A6237516FC00F4F0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD980A4237516FC00F4F0F6 /* Main.storyboard */; };
 		DAD980A8237516FE00F4F0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD980A7237516FE00F4F0F6 /* Assets.xcassets */; };
 		DAD980AB237516FE00F4F0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD980A9237516FE00F4F0F6 /* LaunchScreen.storyboard */; };
 		DAD980AE237516FE00F4F0F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD980AD237516FE00F4F0F6 /* main.m */; };
@@ -37,11 +35,8 @@
 		DAD98098237516FC00F4F0F6 /* zCustomSafeKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zCustomSafeKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD9809B237516FC00F4F0F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAD9809C237516FC00F4F0F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DAD9809E237516FC00F4F0F6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DAD9809F237516FC00F4F0F6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DAD980A1237516FC00F4F0F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DAD980A2237516FC00F4F0F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DAD980A5237516FC00F4F0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAD980A7237516FE00F4F0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD980AA237516FE00F4F0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD980AC237516FE00F4F0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,13 +129,10 @@
 			children = (
 				DAD9809B237516FC00F4F0F6 /* AppDelegate.h */,
 				DAD9809C237516FC00F4F0F6 /* AppDelegate.m */,
-				DAD9809E237516FC00F4F0F6 /* SceneDelegate.h */,
-				DAD9809F237516FC00F4F0F6 /* SceneDelegate.m */,
 				DAD980A1237516FC00F4F0F6 /* ViewController.h */,
 				DAD980A2237516FC00F4F0F6 /* ViewController.m */,
 				DAD980AD237516FE00F4F0F6 /* main.m */,
 				DAD980DB23751FA800F4F0F6 /* zCusomSafeKeyboard.pch */,
-				DAD980A4237516FC00F4F0F6 /* Main.storyboard */,
 				DAD980A7237516FE00F4F0F6 /* Assets.xcassets */,
 				DAD980A9237516FE00F4F0F6 /* LaunchScreen.storyboard */,
 				DAD980AC237516FE00F4F0F6 /* Info.plist */,
@@ -277,7 +269,6 @@
 				DAD980A8237516FE00F4F0F6 /* Assets.xcassets in Resources */,
 				DAD980D2237518C800F4F0F6 /* keyboard_lowerCase.png in Resources */,
 				DAD980D3237518C800F4F0F6 /* keyboard_delete.png in Resources */,
-				DAD980A6237516FC00F4F0F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +315,6 @@
 				DAD980D1237518C800F4F0F6 /* JBBaseKeyboard.m in Sources */,
 				DAD980CA237518C800F4F0F6 /* JBKeyboardButton.m in Sources */,
 				DAD980D0237518C800F4F0F6 /* JBCharsAndSymbolsKeyboard.m in Sources */,
-				DAD980A0237516FC00F4F0F6 /* SceneDelegate.m in Sources */,
 				DAD980CD237518C800F4F0F6 /* JBKeyboardLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,14 +322,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAD980A4237516FC00F4F0F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAD980A5237516FC00F4F0F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAD980A9237516FE00F4F0F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -401,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -453,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -475,7 +457,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zCustomSafeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -493,7 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zCustomSafeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
